@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.narrow {
+    width: 200px;
+}
+
+.narrow {
+    width: 200px;
+}
+
+.narrow {
+    background-color: lightsalmon;
+    display:inline;
+}
+
+.narrow {
+    width: 200px;
+    background-color: lightsalmon;
+    display: inline-block;
+}

@@ -26,5 +26,25 @@
 
 .red {
     background-color: red;
-    border-color: crimson;
+    border-color: red;
+}
+
+.blue {
+    background-color: blue;
+    border-color: blue;
+}
+
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
+
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+
+.black {
+    background-color: skyblue;
+    border-color: skyblue;
 }

@@ -44,7 +44,22 @@
     border-color: orange;
 }
 
-.black {
+.skyblue {
     background-color: skyblue;
     border-color: skyblue;
+}
+
+.purple {
+    background-color: purple;
+    border-color: purple;
+}
+
+.red {
+    background-color: red;
+    border-color: red;
+}
+
+.blue {
+    background-color: blue;
+    border-color: blue;
 }

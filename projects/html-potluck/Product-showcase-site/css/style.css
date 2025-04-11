@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
 }
 
-.single-column {
+.container-1 {
     background-color: lightpink;
     width:50%;
     min-width: 500px;

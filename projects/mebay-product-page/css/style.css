@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#page-layout {
+    /*display: flex; */
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+#column-two {
+    /*display:flex; */
+    display: grid;
+    grid-template-columns: 150px 1fr
+}

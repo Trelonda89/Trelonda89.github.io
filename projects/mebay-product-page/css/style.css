@@ -8,13 +8,78 @@ body {
 }
 
 #page-layout {
-    /*display: flex; */
+    /* display: flex; */
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 150px 1fr 1fr;
 }
 
-#column-two {
-    /*display:flex; */
-    display: grid;
-    grid-template-columns: 150px 1fr
+#pic1:hover {
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+#pic2:hover {
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+#pic3:hover {
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+#pic4:hover {
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+#column-one img {
+    width: 100%;
+}
+
+#column-two img {
+    width: 100%;
+}
+
+#column-three h1 {
+    border-bottom: 1px solid lightgray;
+    margin:0%;
+    padding: 12px 0px;
+}
+
+#column-three h4 {
+    text-decoration: underline;
+}
+
+#column-three h3 {
+    border-bottom: 1px solid lightgray;
+    margin:0%;
+    padding: 12px 0px;
+}
+
+#Add-to-cart {
+    list-style: none;
+    margin: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    color: blue;
+}
+
+#Add-to-watchlist {
+    list-style: none;
+    margin: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    color: blue;
+}
+
+#column-three h2 {
+    list-style: none;
+    margin: 10px;
+    border: 1px solid ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
 }

@@ -1,0 +1,89 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {
+    max-width: 350px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-header .health {
+    font-size: 20px;
+}
+
+.details {
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#pokemon-card-1 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 7px solid yellow;
+}
+
+#pokemon-card-1 {
+    background-color: lightgreen;
+    border: 15px solid yellow;
+    padding: 24px;
+    max-width: 350px;
+}
+
+#pokemon-card-2 img {
+    width: 100%;
+    display: flex;
+    border: 7px solid purple;
+
+}
+
+#pokemon-card-2 {
+    background-color: plum;
+    border: 15px solid purple;
+    padding: 24px;
+    max-width:350px;
+    margin:20px;
+}
+
+#pokemon-card-3 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 7px solid pink;
+}
+
+#pokemon-card-3 {
+    background-color: lightcoral;
+    border: 15px solid pink;
+    padding: 24px;
+    max-width: 350px;
+}
+
+#pokemon-card-4 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 7px solid orange;
+}
+
+#pokemon-card-4 {
+    background-color: aqua;
+    border: 15px solid orange;
+    padding: 24px;
+}

@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/sider-man.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-1 h1 {
+    font-size: 125px; 
+    position: absolute;
+    right: 60%;
+    
+}
+
+#hero-2 {
+    background-image: url("../images/happy.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-2 h2 {
+    font-size: 72px;
+    position:absolute;
+    right: 60%;
+    bottom: 50%;
+    color: green
+}
+
+#hero-2 h4 {
+    font-size: 24px;
+    position: absolute;
+    right: 70%;
+    bottom: 47%;
+    color: green;
+}
+
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+}

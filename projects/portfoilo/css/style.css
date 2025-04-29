@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/urban-hi-res-1ui7.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100%;
+}
+
+#hero h1 {
+    color: white;
+    background-color: fuchsia;
+    border: 25px solid fuchsia;
+    border-radius: 25px;
+    font-size: 45px;
+}
+
+#layout h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: auto;
+}
+
+#hero-2 h2 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+}
+
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: fuchsia;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 42%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: "Overlock", sans-serif;
+    text-align: center;
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+    background-color: darkcyan;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards h3 {
+    color: fuchsia;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+
+#card-1 {
+    border: 8px solid;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #70809087;
+    margin-top: 100PX;
+}
+
+#card-2 {
+    border: 8px solid;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #70809087;
+    margin-top:100px ;
+}
+
+#card-3 {
+    border: 8px solid;
+    min-height: 200px;
+    min-width: 200px;
+    background-color: #70809087;
+    margin-top:100px ;
+}
+
+
+.grid-gallery {
+    columns: 4 24px;
+    column-gap: 24px;
+    padding-top: 24px;
+    border-top: 4px solid fuchsia
+}
+
+.grid-gallery img {
+    width: 100%;
+    margin-bottom:0px;
+    border-radius: 2px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 24px;
+    padding: 30px;
+    padding: 0px;
+}
+
+.gallery img {
+    width: 100%;
+    margin-top: 100px;
+
+}

@@ -16,14 +16,14 @@ body {
 .container {
     width: 80%;
     max-width: 800px;
-    background-color:PINK;
+    background-color: PINK;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .header {
-    background-color:fuchsia;
+    background-color: fuchsia;
     padding: 20px;
     text-align: center;
 }

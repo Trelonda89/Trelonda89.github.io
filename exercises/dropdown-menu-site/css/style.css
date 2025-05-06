@@ -11,6 +11,48 @@ body {
     background-position: center center;
 }
 
+#hero-1 {
+    background-image: url("../images/anastacia-dvi-xeFf3Ekf8kc-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+    z-index: -1;
+    }
+    
+    #hero-1 h2 {
+    font-size: 72px;
+    position: absolute;
+    right: 7%;
+    bottom: 80%;
+    color: white;
+    }
+    
+    #hero-1 h3 {
+    font-size: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 78%;
+    color: white;
+    }
+    
+    #hero-1 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: BLACK;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 17%;
+    bottom: 72%;
+    }
+
 #navbar {
     background: linear-gradient(to bottom, black,beige );
     display: flex;
@@ -69,5 +111,62 @@ body {
 }
 
 #navbar.dropdown-menu a:hover {
-    background: beige;
+    background: black;
+}
+
+.dog-1 h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.dog-1 h3 {
+    font-size: 19px;
+    color: black;
+}
+
+#background-layout {
+    background-color: beige;
+    border-radius: 50px;
+    padding: 15px 10px;
+    max-width: 500px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.cat h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.cat h3 {
+    font-size: 19px;
+    color: black;
+}
+
+#background-layout {
+    background-color: beige;
+    border-radius: 50px;
+    padding: 15px 10px;
+    max-width: 500px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.dog-2 h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.dog-2 h3 {
+    font-size: 19px;
+    color: black;
+}
+
+#background-layout {
+    background-color: beige;
+    border-radius: 50px;
+    padding: 15px 10px;
+    max-width: 500px;
+    margin: 24px auto;
+    text-align: center;
 }

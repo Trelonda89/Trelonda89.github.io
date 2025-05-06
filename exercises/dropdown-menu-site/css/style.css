@@ -53,6 +53,19 @@ body {
     bottom: 72%;
     }
 
+    #background{
+        font-size: 14px;
+        display: inline-block;
+        background-color: BLACK;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        position: absolute;
+        left: 34%;
+        bottom: 15%;
+        border-radius: 24px;
+        }
+
 #navbar {
     background: linear-gradient(to bottom, black,beige );
     display: flex;
@@ -143,30 +156,3 @@ body {
     color: black;
 }
 
-#background-layout {
-    background-color: beige;
-    border-radius: 50px;
-    padding: 15px 10px;
-    max-width: 500px;
-    margin: 24px auto;
-    text-align: center;
-}
-
-.dog-2 h1 {
-    font-size: 50px;
-    color: black;
-}
-
-.dog-2 h3 {
-    font-size: 19px;
-    color: black;
-}
-
-#background-layout {
-    background-color: beige;
-    border-radius: 50px;
-    padding: 15px 10px;
-    max-width: 500px;
-    margin: 24px auto;
-    text-align: center;
-}

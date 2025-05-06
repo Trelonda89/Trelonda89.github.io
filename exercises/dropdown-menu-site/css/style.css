@@ -156,3 +156,23 @@ body {
     color: black;
 }
 
+.dog-2 h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.dog-2 h3 {
+    font-size: 19px;
+    color: black;
+}
+
+#background-layout {
+    background-color: beige;
+    border-radius: 50px;
+    padding: 15px 10px;
+    max-width: 500px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+

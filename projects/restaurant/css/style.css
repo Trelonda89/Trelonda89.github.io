@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: skyblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: yellow;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    padding:263px;
+    background-color: yellow;
+    background-image: url("../images/calum-lewis-vA1L1jRTM70-unsplash\ \(1\).jpg");
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: skyblue;
+    color: yellow;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: black;
+    color: yellow;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button:active {
+    border: 5px solid red;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: skyblue;
+    color: yellow;
+    font-size: 0.9em;
+}

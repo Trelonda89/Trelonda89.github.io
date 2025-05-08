@@ -111,7 +111,7 @@ main {
     flex-wrap: wrap; 
     justify-content: space-around; 
     align-items: flex-start; 
-    gap: 5px; 
+    gap: 5px;
 }
 
 .card {
@@ -121,6 +121,7 @@ main {
     box-shadow: 0 8px 5px yellow;
     width: 260px;
     text-align: center; 
+    flex-direction: column;
 }
 
 .card img {

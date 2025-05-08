@@ -23,12 +23,12 @@ header {
 }
 
 .logo {
-   background-image: url("../images/Screenshot_2025-05-06_194029-removebg-preview.png");
-   width: 150px;
-   height: 150px;
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
+    background-image: url("../images/Screenshot_2025-05-06_194029-removebg-preview.png");
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
  }
 
 nav ul {
@@ -184,32 +184,32 @@ main {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .menu-item img {
+.menu-item img {
     float: left;
     margin-right: 10px;
     max-width: 150px;
     height: auto;
     border-radius: 5px;
-  }
+}
   
-  .menu-item h3 {
+.menu-item h3 {
     margin-top: 0;
-  }
+}
   
-  .menu-item p {
+.menu-item p {
     font-size: 14px;
     color: #666;
     line-height: 1.4;
-  }
+}
   
-  .price {
+.price {
     font-weight: bold;
     color: #007bff;
-  }
+}
 
 
 
-footer {
+.footer {
     background-color: skyblue;
     color: yellow;
     padding: 24px;

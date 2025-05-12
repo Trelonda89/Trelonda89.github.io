@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 .logo {
@@ -34,10 +35,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-}
-
-nav li {
-    margin-left: 20px;
+    padding-left: 0px;
 }
 
 nav a {
@@ -57,7 +55,7 @@ nav a:hover {
 }
 
 .hero {
-    padding: 250px;
+    padding: 250px 150px;
     background-color: yellow;
     background-image: url("../images/andre-taissin-Sa_uh3r-Q5w-unsplash\ \(1\).jpg");
     background-size: cover;
@@ -68,7 +66,7 @@ nav a:hover {
 .hero h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color:white;
+    color: white;
 }
 
 .hero h2 {
@@ -112,7 +110,7 @@ main {
     justify-content: space-around; 
     align-items: flex-start; 
     gap: 5px;
-    height:fit-content;
+    height: fit-content;
     
 }
 
@@ -123,7 +121,7 @@ main {
     width: 260px;
     text-align: center; 
     flex-direction: column;
-    height:fit-content;
+    height: fit-content;
 }
 
 .card img {
@@ -146,10 +144,12 @@ main {
 .card a {
     background-color: black;
     color: yellow;
-    padding: 5px 4px;
+    padding: 8px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    margin:8px;
 }
 
 .single-column {
@@ -164,8 +164,11 @@ main {
 
 .single-column img {
     width: 60%;
+    height: 420px;
     border-radius: 30px 30px;
-    margin-left:auto;
+    margin-left: auto;
+    object-fit: cover;
+
 
 }
 
@@ -174,7 +177,7 @@ main {
     margin-bottom: 10px;
     text-decoration: underline;
     text-align: center;
-    margin-left:auto;
+    margin-left: auto;
 }
 
 .entree h4 {
@@ -200,17 +203,19 @@ main {
 .menu {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
+    margin-top: 90px;
 }
 
 .menu-item {
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33.333% - 20px);
+    flex: 300px;
     box-sizing: border-box;
+    display: column;
 }
 
 .menu-item img {
@@ -250,4 +255,8 @@ main {
     position: bottom;
     bottom: 0;
     width: 100%;
+}
+
+.footer p{
+    text-align: center;
 }

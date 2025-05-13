@@ -24,13 +24,14 @@ header {
 }
 
 .logo {
-    background-image: url("../images/Screenshot_2025-05-06_194029-removebg-preview.png");
+    background-image: 
+    url("../images/Screenshot_2025-05-06_194029-removebg-preview.png");
     width: 150px;
     height: 150px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
- }
+}
 
 nav ul {
     list-style: none;
@@ -149,7 +150,7 @@ main {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    margin:8px;
+    margin: 8px;
 }
 
 .single-column {
@@ -168,8 +169,6 @@ main {
     border-radius: 30px 30px;
     margin-left: auto;
     object-fit: cover;
-
-
 }
 
 .entree h1 {
@@ -203,7 +202,7 @@ main {
 .menu {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 90px;
 }
 
@@ -245,8 +244,6 @@ main {
     text-align: center;
 }
 
-
-
 .footer {
     background-color: skyblue;
     color: yellow;
@@ -255,8 +252,4 @@ main {
     position: bottom;
     bottom: 0;
     width: 100%;
-}
-
-.footer p{
-    text-align: center;
 }
